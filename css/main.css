@@ -28,6 +28,7 @@ body {
   background-image: linear-gradient(to bottom, #e2e2e2, #ccc);
   text-align: center;
   color: #333;
+  position: relative;
 }
 
 .song {
@@ -43,6 +44,10 @@ body {
 }
 
 .album {
+  width: 50px;
+  left: 0;
+  top: 0;
+  position: absolute;
 
 }
 
@@ -51,6 +56,9 @@ body {
 }
 
 .time-bar {
+  width: 100%;
+  right: 0;
+  bottom: 0;
   height: 8px;
   margin: 0;
   padding: 0;
@@ -58,6 +66,7 @@ body {
   -moz-appearance: none;
   border: 0;
   background-color: #aaa;
+  position: absolute;
 }
 
 /*
@@ -93,6 +102,7 @@ body {
 }
 
 .control-shuffle {
+  position: absolute;
 
 }
 
